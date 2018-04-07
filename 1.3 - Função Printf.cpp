@@ -4,22 +4,28 @@
 main(){
 	
 	int a = 1;
+	int i = 52;
 	char tipo = 'c';
 	float valor = 22.53;
+	float x = 28.534;
 	
+	printf("i = %2d\n", i);
+	printf("i = %4d\n", i);
+	printf("x = %8.3f\n", x);
+	printf("x = %-8.3f\n", x);
 	printf("Inteiro: %d\nChar: %c\nFloat: %f\n", a, tipo, valor);
 	
-	//printf() - é de fato uma função asssim como a main
-	// () - Sentença a ser apresentada na tela e deve ser limitada entre (" ") 
+	//printf() - Ã© de fato uma funÃ§Ã£o asssim como a main
+	// () - SentenÃ§a a ser apresentada na tela e deve ser limitada entre (" ") 
 	
 	/*
-	O simbulo % dentro da sentença printf, indica que desejamos imprimir o conteúdo de alguma variável
+	O simbulo % dentro da sentenÃ§a printf, indica que desejamos imprimir o conteÃºdo de alguma variÃ¡vel
 	
 	%c - Caracter
 	%s - String
 	%d - Inteiro
-	%f - Float (notação decimal)
-	%e - Float (notação exponencial)
+	%f - Float (notaÃ§Ã£o decimal)
+	%e - Float (notaÃ§Ã£o exponencial)
 	%g - Float
 	%u - Inteiro sem sinal
 	%x - Hexadecinal inteiro
@@ -34,7 +40,7 @@ main(){
 	/* Existem outros caracteres de controle e todos inicial com um \ "
 	
 	\n - Nova linha
-	\t - Tabulação
+	\t - TabulaÃ§Ã£o
 	\b - Backspace
 	\' - Aspas simples
 	\" - dupla aspas
