@@ -2,7 +2,7 @@
 
 main(){
 	
-	//A funÁ„o Scanf È rspons·vel pela entrada de dados via teclado
+	//A fun√ß√£o Scanf √© rspons√°vel pela entrada de dados via teclado
 
 	int i, j;
 	float x, y;
@@ -12,7 +12,7 @@ main(){
 	scanf("%f\n", &x);
 	scanf("%lf\n", &a);
 	
-	//O comando scanf interrompe a execuÁ„o do programa e aguarda o usu·rio entrar com um valor para a vari·vel x
+	//O comando scanf interrompe a execu√ß√£o do programa e aguarda o usu√°rio entrar com um valor para a vari√°vel x
 	
 	j = i % 2;
 	y = x * 2;
