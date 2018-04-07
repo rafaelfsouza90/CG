@@ -23,4 +23,5 @@ main(){
 	printf("a = %g b = %g\n", a, b);
 	
 	
+	
 }
