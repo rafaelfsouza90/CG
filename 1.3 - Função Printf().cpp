@@ -18,6 +18,7 @@ main(){
 	//printf() - é de fato uma função asssim como a main
 	// () - Sentença a ser apresentada na tela e deve ser limitada entre (" ") 
 	
+	
 	/*
 	O simbulo % dentro da sentença printf, indica que desejamos imprimir o conteúdo de alguma variável
 	
